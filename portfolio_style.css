@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500;600;800&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Encode Sans', sans-serif;
+  color: #505962;
+}
+
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+/* Used Throughout the Page */
+.title-holder h3 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+
+
+
+
+/* Navigation */
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: .7rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+}
+
+.navbar-nav li {
+  padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #b7ffff;
+}
+
+/* Landing Page */
+
+.home-inner-1{
+  background-image: url(img/canada2.jpg);
+}
+.home-inner-2{
+  background-image: url(img/canada3.jpg);
+}
+.home-inner-3{
+  background-image: url(img/canada1.jpg);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 800;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+/* About section */
+.about_wrap {
+    padding: 4rem 2rem;
+}
+
+.profile_wrap {
+    width: 80% auto;
+    margin: 0rem 5rem;
+}
+
+.profile_context {
+    margin-right: 2rem;
+}
+
+.profile_context h2 {
+    margin-top: .7rem;
+    margin-bottom: .3rem;
+    letter-spacing: .1rem;
+    font-weight: 600;
+}
+
+.profile_context span{
+    color: #ffb7b7;
+}
+
+.profile_pic img {
+   width: 200px;
+}
+
+.profile_link li {
+    margin-bottom: 1rem;
+}
+.profile_link a {
+    color: #666b71;
+}
+
+/*Background section */
+
+.background_wrap {
+    margin: 4rem 0 4rem 0;
+}
+
+.arlo_tm_timeline{
+	width: 80%;
+	height: auto;
+	clear: both;
+    margin: 0 auto;
+	padding-top: 140px;
+	padding-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5%;
+    padding-left: 50px;
+}
+
+
+.arlo_tm_timeline .timeline_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	padding-top: 80px;
+	display: flex;
+}
+.arlo_tm_timeline .timeline_inner .left,
+.arlo_tm_timeline .timeline_inner .right{
+	width: 50%;
+	padding-right: 50px;
+}
+.arlo_tm_timeline .timeline_inner .left ul,
+.arlo_tm_timeline .timeline_inner .right ul{
+	margin: 0px;
+	width: 100%;
+	list-style-type: none;
+	position: relative;
+}
+.arlo_tm_timeline .timeline_inner .left ul:before,
+.arlo_tm_timeline .timeline_inner .right ul:before{
+	position: absolute;
+	content: "";
+	width: 1px;
+	top: 11px;
+	bottom: 5px;
+	background-color: rgba(0,0,0,.2);
+	left: 0px;
+}
+.arlo_tm_timeline .timeline_inner .svg{
+	width: 30px;
+	height: 30px;
+	
+    color: #fda027;
+	position: absolute;
+	left: -55px;
+	top: -3px;
+}
+.arlo_tm_timeline .timeline_inner .left ul li,
+.arlo_tm_timeline .timeline_inner .right ul li{
+	width: 100%;
+	margin: 0px 0px 50px 0px;
+	/* padding-left: 40px; */
+}
+.arlo_tm_timeline .timeline_inner .left ul li:last-child{margin-bottom: 0px;}
+.arlo_tm_timeline .timeline_inner .right ul li:last-child{margin-bottom: 0px;}
+.arlo_tm_timeline .timeline_inner .left ul li .inner,
+.arlo_tm_timeline .timeline_inner .right ul li .inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	position: relative;
+}
+.arlo_tm_timeline .timeline_inner .left ul li .inner .year,
+.arlo_tm_timeline .timeline_inner .right ul li .inner .year{margin-bottom: 20px;}
+.arlo_tm_timeline .timeline_inner .left ul li .inner .title,
+.arlo_tm_timeline .timeline_inner .right ul li .inner .title{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.class {
+    -webkit-overflow-scrolling: touch;
+  }
+/* .arlo_tm_timeline span{
+    
+    color: #fda027;
+    font-size: 30px;
+
+
+} */
+
+/* Resources Section */
+.fixed {
+  background-image: url(img/newyork.jpg);
+  z-index: -1;
+}
+
+.dark {
+  background-color: rgba(0,0,0,0.75);
+  color: white;
+  padding: 7rem 2rem;
+}
+
+.fixed-background h3 {
+  margin-bottom: 2rem;
+}
+
+.fixed-background p {
+  margin-top: 1.5rem;
+}
+
+/* Skills Section */
+
+.skill-card {
+    background-color: #b7ffff;
+}
+
+/* Hobby Section */
+
+.movie-wrap {
+    width: 100% auto;
+}
+
+.hobby-wrap-all {
+    font-size: 100%;
+    font-size: 16px;
+    line-height: 1.5px;
+    background: #f0f4fb;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.site-container {
+    margin: 2rem auto;
+    max-width: calc(100% - 80px);
+}
+
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    gap: 2rem;
+}
+
+.article-image {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.article-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.article-card {
+    background: white;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.article-content {
+    padding: 2rem;
+}
+
+.article-content .card-category {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    color: #6b82a7;
+    display: block;
+    text-decoration: none;
+}
+
+.article-content .card-title {
+    margin: 1rem 0;
+    color: #22447b;
+}
+
+.article-content .card-excerpt {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #6b82a7;
+    margin: 0;
+}
+
+
+/* Contact Section */
+footer {
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+
+footer img {
+  height: 3rem;
+  margin: 1.5rem 0;
+}
+
+footer a {
+  color: white;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0 ;
+}
+
+footer svg.svg-inline--fa:hover {
+  color: #1ebba3!important;
+}
+
+hr.socket {
+  width: 100%;
+  border-top: .2rem solid #666b71;
+  margin-top: 3rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+  .caption h1 {
+    font-size: 2.3rem;
+    letter-spacing: .15rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+  
+  .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+  }
+
+  .narrow h1 {
+    font-size: 1.5rem;
+  }
+  .clients img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
