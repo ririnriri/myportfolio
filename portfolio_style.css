@@ -81,7 +81,7 @@ body {
 }
 
 /* About section */
-.about_wrap {
+/* .about_wrap {
     padding: 4rem 2rem;
 }
 
@@ -114,7 +114,29 @@ body {
 }
 .profile_link a {
     color: #666b71;
+} */
+
+.profile-wrap {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(219, 226, 226);
 }
+.profile-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.profile-pic {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.profile-row {
+    box-shadow: 12px 12px 22px grey;
+    border-radius: 30px;
+}
+
 
 /*Background section */
 
@@ -308,6 +330,10 @@ body {
     padding-bottom: 2.5rem;
 }
 
+footer .btn {
+    border-radius: 50%;
+}
+
 /* Media Queries */
 
 @media (max-width: 767px) {
@@ -321,7 +347,7 @@ body {
     font-size: 1.2rem;
     padding-bottom: 1.2rem;
   }
-  
+/*   
   .btn-lg {
     padding: .5rem 1rem;
     font-size: 1rem;
@@ -334,7 +360,17 @@ body {
     max-width: 50%;
     display: block;
     margin: 0 auto;
-  }
+  } */
+}
+
+@media (max-width: 768px) {
+    .profile-pic {
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0;
+        /* max-height: 400px; */
+        
+    }
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
