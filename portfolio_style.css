@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500;600;800&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Encode Sans', sans-serif;
+}
+
 body {
   overflow-x: hidden;
-  font-family: 'Encode Sans', sans-serif;
+  /* font-family: 'Encode Sans', sans-serif; */
   color: #505962;
 }
 
@@ -120,7 +126,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: rgb(219, 226, 226);
+    background-color: #b7ffff;
 }
 .profile-container {
     max-width: 900px;
@@ -151,7 +157,9 @@ body {
     margin: 0 auto;
 	padding-top: 140px;
 	padding-bottom: 100px;
-    background-color: rgba(255, 255, 255, 0.3);
+    /* background-color: rgba(69, 200, 233, 0.6); */
+    background-color: #b7ffff;
+    opacity: 0.6;
     border-radius: 5%;
     padding-left: 50px;
 }
@@ -193,13 +201,14 @@ body {
     color: #fda027;
 	position: absolute;
 	left: -55px;
+    /* left: -15px; */
 	top: -3px;
 }
 .arlo_tm_timeline .timeline_inner .left ul li,
 .arlo_tm_timeline .timeline_inner .right ul li{
 	width: 100%;
 	margin: 0px 0px 50px 0px;
-	/* padding-left: 40px; */
+	padding-left: 40px;
 }
 .arlo_tm_timeline .timeline_inner .left ul li:last-child{margin-bottom: 0px;}
 .arlo_tm_timeline .timeline_inner .right ul li:last-child{margin-bottom: 0px;}
@@ -236,7 +245,7 @@ body {
 
 .dark {
   background-color: rgba(0,0,0,0.75);
-  color: white;
+  /* color: white; */
   padding: 7rem 2rem;
 }
 
@@ -250,21 +259,94 @@ body {
 
 /* Skills Section */
 
-.skill-card {
+/* .skill-card {
     background-color: #b7ffff;
+} */
+
+.skill-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #b7ffff;
+    margin-bottom: 0;
+}
+
+.skill-container {
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.skill-container .card {
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.skill-container .card:hover {
+    height: 420px;
+    /* width: 100%; */
+}
+
+.skill-container .card .imgBx {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: -70px;
+    left: 9px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.skill-container .card .imgBx img {
+    width: 250px;
+    height: 250px;
+    border-radius: 4px;
+}
+
+.skill-container .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.skill-container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    /* margin: -40px; */
+    margin-top: -40px;
+    transition-delay: 0.3s;
 }
 
 /* Hobby Section */
 
 .movie-wrap {
     width: 100% auto;
+    background-color: #b7ffff;
 }
 
 .hobby-wrap-all {
     font-size: 100%;
     font-size: 16px;
     line-height: 1.5px;
-    background: #f0f4fb;
+    
+    background-color: #b7ffff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -326,12 +408,24 @@ body {
 
 
 /* Contact Section */
+.footer-container {
+    padding-top: 14px;
+}
+
 .footer-message {
-    padding-bottom: 2.5rem;
+    padding-bottom: 14px;
 }
 
 footer .btn {
     border-radius: 50%;
+}
+
+.footer-underline {
+    border-color: #b7ffff;
+    border-width: 1.5px;
+    padding-bottom: 30px;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 /* Media Queries */
