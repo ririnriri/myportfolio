@@ -127,7 +127,8 @@ body {
 /* About section */
 
 .blog-wrap-all {
-    background-color: #aec6cf;
+    /* background-color: #aec6cf; */
+    background-image: linear-gradient(to right, #aec6cf 0%, #b6b6db 100%);
 }
 
 .blog-body {
@@ -317,7 +318,7 @@ body {
 
 .background_wrap {
     padding: 0 40px 40px;
-    background-color: rgba(204, 204, 255, 0.5);
+    background-color: rgba(204, 204, 255, 0.6);
     border-radius: 10px;
     /* background-color: rgba(0, 0, 0, 0.5); */
     border-style: solid;
@@ -339,14 +340,25 @@ body {
     font-weight: 800;
     /* color: white; */
     /* color: #F6D7A7; */
-    color: #9e6872;
+    color: #835860;
 }
 
 .vision-context span {
     /* color: rgb(207, 89, 83); */
+    font-size: 27px;
+    font-weight: 800px;
+}
+
+.vision-context-span1 {
+    color: #fff;
+}
+
+.vision-context-span2 {
     color: #9dcfcb;
-    font-size: 25px;
-    font-weight: 700px;
+}
+
+.vision-context-span3 {
+    color: #ffc1c1;
 }
 
 /* vision fixed-background Section */
@@ -376,12 +388,9 @@ body {
     .vision-context h2 {
         font-weight: 800;
         font-size: 38px;
-        color: #9e6872;
     }
     
     .vision-context span {
-        /* color: rgb(207, 89, 83); */
-        color: #9dcfcb;
         font-size: 30px;
         font-weight: 700px;
     }
@@ -411,17 +420,15 @@ body {
     .vision-container {
         font-size: 16px;
         font-weight: 500;
+        line-height: 19px;
     }
     
     .vision-context h2 {
         font-weight: 800;
         font-size: 28px;
-        color: #9e6872;
     }
     
     .vision-context span {
-        /* color: rgb(207, 89, 83); */
-        color: #9dcfcb;
         font-size: 20px;
         font-weight: 700px;
     }
@@ -431,7 +438,7 @@ body {
 /* Skills Section */
 
 .skill-container {
-    background: #aec6cf;
+    background-image: linear-gradient(to right, #b6b6db 0%, #aec6cf 100%);
     /* margin: 30px; */
     padding: 30px;
 }
@@ -445,7 +452,8 @@ body {
 }
 
 .skill-image {
-    background: #ccccff;
+    /* background: #ccccff; */
+    background-image: linear-gradient(to right, #aec6cf 0%, #b6b6db 100%);
     position: relative;
     flex: 1;
     max-width: 460px;
@@ -473,7 +481,8 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    color: purple;
+    /* color: purple; */
+    color: #963496;
     width: 100%;
     height: 100%;
 }
@@ -544,11 +553,11 @@ body {
 
 .movie-wrap {
     width: 100% auto;
-    background-color: #aec6cf;
+    background-image: linear-gradient(to right, #aec6cf 0%, #b6b6db 100%);
 }
 
 .hobby-wrap-all {
-    background: #aec6cf;
+    background-image: linear-gradient(to right, #aec6cf 0%, #b6b6db 100%);
     padding: 30px;
 }
 
@@ -556,13 +565,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #aec6cf;
     margin-bottom: 0;
 }
 
 .hobby-container {
     position: relative;
-    /* width: 1100px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -575,7 +582,6 @@ body {
     max-width: 300px;
     height: 215px;
     background: #fff;
-    /* margin: 30px 10px; */
     margin: 50px 10px;
     padding: 20px 15px;
     display: flex;
@@ -586,7 +592,6 @@ body {
 
 .hobby-container .card:hover {
     height: 420px;
-    /* width: 100%; */
 }
 
 .hobby-container .card .imgBx {
