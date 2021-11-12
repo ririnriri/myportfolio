@@ -95,6 +95,9 @@ body {
 }
 
 /* Landing Page */
+.carousel-inner {
+    background-image: linear-gradient(to right, #aec6cf 0%, #b6b6db 100%);
+}
 
 .home-inner-1{
   background-image: url(img/canada2.jpg);
